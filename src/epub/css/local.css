@@ -41,16 +41,63 @@ abbr.name{
 	margin-left: 1em;
 }
 
-/* TODO work this out as I go through each poem */
+#the-love-song-of-j-alfred-prufrock p.epigraph,
+#portrait-of-a-lady p.epigraph,
+#gerontion p.epigraph,
+#sweeney-erect p.epigraph,
+#a-cooking-egg p.epigraph{
+	font-style: italic;
+	margin-left: 2em;
+}
 
-/*
-p.foreign-language {
-	margin-left: 1em;
+#burbank-with-a-baedeker-bleistein-with-a-cigar p.epigraph{
 	font-style: italic;
 }
 
-#gerontion p.first {
-  font-style: italic;
-  margin-left: 1em;
+#the-hippopotamus p.epigraph,
+#mr-eliots-sunday-morning-service p.epigraph{
+	font-style: italic;
+	text-indent: 1em;
 }
-*/
+
+#la-figlia-che-piange p.epigraph{
+	font-style: italic;
+	text-align: center;
+}
+
+#portrait-of-a-lady span.byline,
+#the-hippopotamus span.byline,
+#mr-eliots-sunday-morning-service span.byline{
+	font-style: normal;
+	font-variant: small-caps;
+	text-align: right;
+}
+
+#the-waste-land p.epigraph{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+#the-waste-land p.epigraph span{
+	display: inline;
+	text-indent: 0;
+	margin: 0;
+	padding: 0;
+}
+#the-waste-land p.dedication{
+	text-align: center;
+}
+#the-waste-land p.foreign{
+	font-style: italic;
+}
+#the-waste-land span.foreign{
+	font-style: italic;
+}
+#the-waste-land span.right{
+	text-align: right;
+}
+#the-waste-land span.center{
+	text-align: center;
+}
+#the-waste-land span.smallcaps{
+	font-variant: small-caps;
+}

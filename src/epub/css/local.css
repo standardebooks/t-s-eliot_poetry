@@ -1,2 +1,56 @@
 @charset "UTF-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+article,
+section{
+	page-break-after: always;
+}
+
+abbr.name{
+	white-space: nowrap;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:poem"] p.right span:first-child{
+	text-align: right;
+}
+
+[epub|type~="z3998:poem"] p.center span:first-child{
+	text-align: center;
+}
+
+[epub|type~="z3998:poem"] span.indent{
+	margin-left: 1em;
+}
+
+/* TODO work this out as I go through each poem */
+
+/*
+p.foreign-language {
+	margin-left: 1em;
+	font-style: italic;
+}
+
+#gerontion p.first {
+  font-style: italic;
+  margin-left: 1em;
+}
+*/

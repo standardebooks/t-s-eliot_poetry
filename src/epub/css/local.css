@@ -10,26 +10,32 @@ abbr.name{
 	white-space: nowrap;
 }
 
-[epub|type~="z3998:poem"] p{
+[epub|type~="z3998:poem"] p,
+[epub|type~="rearnotes"] p.poetry{
 	text-align: left;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p{
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="rearnotes"] p + p.poetry,
+[epub|type~="rearnotes"] p.poetry + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="rearnotes"] p.poetry > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="rearnotes"] p.poetry > span + br{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p.right span:first-child{
+[epub|type~="z3998:poem"] p.right span:first-child,
+[epub|type~="rearnotes"] p.right.poetry span:first-child{
 	text-align: right;
 }
 

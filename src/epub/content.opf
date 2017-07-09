@@ -18,48 +18,47 @@
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Poems</dc:title>
-		<meta property="file-as" refines="#title">SORT</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="file-as" refines="#title">Poems</meta>
+		<dc:subject>Poetry</dc:subject>
+		<meta property="se:subject">Poetry</meta>
+		<dc:description id="description">A collection of T.S. Eliot’s poetry, including “The Love Song of J. Alfred Prufrock” and “The Waste Land.”</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONGDESCRIPTION
+			&lt;p&gt;&lt;i&gt;Poems&lt;/i&gt; of T. S. Eliot collects all of his early work through “The Waste Land.” Poems like “The Love Song of J. Alfred Prufrock” and “Gerontion” ponder questions of againg, while “Sweeney Erect,” “Mr. Eliot’s Sunday Service,” and “Sweeney Among the Nightingales” sketch the temptations and agonies of the modern man in the character of Sweeney.&lt;/p&gt;&lt;p&gt;&lt;Woven through with allusions to numerous works in eight different languages and sporting over fifty footnotes by the author, “The Waste Land” is as notorious for its bleak picture of a post-war world as it is for its density and difficulty.&lt;/p&gt;
 		]]></meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>LINK</dc:source>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">WIKILINK</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>http://www.gutenberg.org/ebooks/1567</dc:source>
+		<dc:source>https://babel.hathitrust.org/cgi/pt?id=loc.ark:/13960/t81j9w08v;view=2up;seq=2</dc:source>
+		<dc:source>http://www.gutenberg.org/ebooks/1321</dc:source>
+		<dc:source>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t9k371w5q;view=2up;seq=1</dc:source>
+		<meta property="se:word-count">IGNORE</meta>
+		<meta property="se:reading-ease.flesch">IGNORE</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Love_Song_of_J._Alfred_Prufrock</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Waste_Land</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/t-s-eliot_poems</meta>
 		<dc:creator id="author">T. S. Eliot</dc:creator>
-		<meta property="file-as" refines="#author">SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">FULLNAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">NACOAFLINK</meta>
+		<meta property="file-as" refines="#author">Eliot, T. S.</meta>
+		<meta property="se:name.person.full-name" refines="#author">Thomas Stearns Eliot</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/T._S._Eliot</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79006870</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator">CONTRIB1</dc:contributor>
-		<meta property="file-as" refines="#translator">CONTRIB1SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">NACOAFLINK</meta>
-		<meta property="display-seq" refines="#translator">1</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">NACOAFLINK</meta>
+		<dc:contributor id="artist">Marcel Duchamp</dc:contributor>
+		<meta property="file-as" refines="#artist">Duchamp, Marcel</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Henri-Robert-Marcel Duchamp</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Marcel_Duchamp</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80057220</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
+		<dc:contributor id="transcriber-1">Bill Brewer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Brewer, Bill</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jared Updike</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Updike, Jared</meta>
+		<meta property="se:name.person.full-name" refines="#producer-1">Jared Fisher Updike</meta>
+		<meta property="se:url.homepage" refines="#producer-1">http://jared.updike.org/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -74,14 +73,18 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/body.xhtml" id="body.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="body.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>

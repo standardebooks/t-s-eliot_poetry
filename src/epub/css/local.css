@@ -53,6 +53,10 @@ abbr.name{
 	padding: 0;
 }
 
+h3 [epub|type~="subtitle"] {
+	display: block;
+}
+
 #the-love-song-of-j-alfred-prufrock p.epigraph,
 #portrait-of-a-lady p.epigraph,
 #gerontion p.epigraph,

@@ -47,6 +47,12 @@ abbr.name{
 	margin-left: 1em;
 }
 
+[epub|type~="z3998:poem"] span > span {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
 #the-love-song-of-j-alfred-prufrock p.epigraph,
 #portrait-of-a-lady p.epigraph,
 #gerontion p.epigraph,
@@ -69,6 +75,13 @@ abbr.name{
 #la-figlia-che-piange p.epigraph{
 	font-style: italic;
 	text-align: center;
+}
+
+#burbank-with-a-baedeker-bleistein-with-a-cigar span.inverse-italics {
+	font-style: normal;
+	display: inline;
+	margin: 0;
+	padding: 0;
 }
 
 #portrait-of-a-lady span.byline,
@@ -97,12 +110,6 @@ abbr.name{
 }
 #the-waste-land p.dedication{
 	text-align: center;
-}
-#the-waste-land p.foreign{
-	font-style: italic;
-}
-#the-waste-land span.foreign{
-	font-style: italic;
 }
 #the-waste-land span.right{
 	text-align: right;

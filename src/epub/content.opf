@@ -24,7 +24,7 @@
 		<dc:description id="description">A collection of T.S. Eliot’s poetry, including “The Love Song of J. Alfred Prufrock” and “The Waste Land.”</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			&lt;p&gt;&lt;i&gt;Poems&lt;/i&gt; of T. S. Eliot collects all of his early work through “The Waste Land.” Poems like “The Love Song of J. Alfred Prufrock” and “Gerontion” ponder questions of againg, while “Sweeney Erect,” “Mr. Eliot’s Sunday Service,” and “Sweeney Among the Nightingales” sketch the temptations and agonies of the modern man in the character of Sweeney.&lt;/p&gt;&lt;p&gt;&lt;Woven through with allusions to numerous works in eight different languages and sporting over fifty footnotes by the author, “The Waste Land” is as notorious for its bleak picture of a post-war world as it is for its density and difficulty.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Poems&lt;/i&gt; of T. S. Eliot collects all of his early work through “The Waste Land.” Poems like “The Love Song of J. Alfred Prufrock” and “Gerontion” ponder questions of aging, while “Sweeney Erect,” “Mr. Eliot’s Sunday Service,” and “Sweeney Among the Nightingales” sketch the temptations and agonies of the modern man in the character of Sweeney.&lt;/p&gt;&lt;p&gt;&lt;Woven through with allusions to numerous works in eight different languages and sporting over fifty footnotes by the author, “The Waste Land” is as notorious for its bleak picture of a post-war world as it is for its density and difficulty.&lt;/p&gt;
 		]]></meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>

@@ -43,11 +43,11 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/T._S._Eliot</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79006870</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">Marcel Duchamp</dc:contributor>
-		<meta property="file-as" refines="#artist">Duchamp, Marcel</meta>
-		<meta property="se:name.person.full-name" refines="#artist">Henri-Robert-Marcel Duchamp</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Marcel_Duchamp</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80057220</meta>
+		<dc:contributor id="artist">Pablo Picasso</dc:contributor>
+		<meta property="file-as" refines="#artist">Picasso, Pablo</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Pablo Picasso</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Pablo_Picasso</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n78086005</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Bill Brewer</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Brewer, Bill</meta>

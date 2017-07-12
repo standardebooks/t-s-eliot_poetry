@@ -28,9 +28,9 @@
 		]]></meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
-		<dc:source>http://www.gutenberg.org/ebooks/1567</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1567</dc:source>
 		<dc:source>https://babel.hathitrust.org/cgi/pt?id=loc.ark:/13960/t81j9w08v;view=2up;seq=2</dc:source>
-		<dc:source>http://www.gutenberg.org/ebooks/1321</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/1321</dc:source>
 		<dc:source>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t9k371w5q;view=2up;seq=1</dc:source>
 		<meta property="se:word-count">IGNORE</meta>
 		<meta property="se:reading-ease.flesch">IGNORE</meta>

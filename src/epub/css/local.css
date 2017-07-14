@@ -63,70 +63,23 @@ h3 [epub|type~="subtitle"] {
 	display: block;
 }
 
-#the-love-song-of-j-alfred-prufrock p.epigraph,
-#portrait-of-a-lady p.epigraph,
-#gerontion p.epigraph,
-#sweeney-erect p.epigraph,
-#a-cooking-egg p.epigraph{
+[epub|type~="epigraph"]{
 	font-style: italic;
-	margin-left: 2em;
-}
-
-#burbank-with-a-baedeker-bleistein-with-a-cigar p.epigraph{
-	font-style: italic;
-}
-
-#the-hippopotamus p.epigraph,
-#mr-eliots-sunday-morning-service p.epigraph{
-	font-style: italic;
-	text-indent: 1em;
-}
-
-#la-figlia-che-piange p.epigraph{
-	font-style: italic;
-	text-align: center;
-}
-
-#burbank-with-a-baedeker-bleistein-with-a-cigar span.inverse-italics {
-	font-style: normal;
-	display: inline;
-	margin: 0;
-	padding: 0;
-}
-
-#portrait-of-a-lady span.byline,
-#the-hippopotamus span.byline,
-#the-waste-land span.byline,
-#sweeney-among-the-nightingales span.byline,
-#the-love-song-of-j-alfred-prufrock span.byline,
-#la-figlia-che-piange span.byline,
-#gerontion span.byline,
-#a-cooking-egg span.byline,
-#mr-eliots-sunday-morning-service span.byline{
-	font-style: normal;
-	font-variant: small-caps;
-	text-align: right;
-}
-
-#the-waste-land p.epigraph{
-	margin-left: 1em;
-	margin-right: 1em;
-}
-#the-waste-land p.epigraph span{
-	display: inline;
+	hyphens: none;
+	margin: 3em;
+	margin-top: 0;
+	text-align: left;
 	text-indent: 0;
-	margin: 0;
-	padding: 0;
+	display: block; /* note that this is inline-block in the guide, by block here, to allow right aligned byline to aligned further right */
 }
-#the-waste-land p.dedication{
-	text-align: center;
-}
-#the-waste-land span.right{
+
+[epub|type~="epigraph"] > cite{
+	margin-top: 0.5em;
+	font-style: normal;
+	font-variant: small-caps;
 	text-align: right;
 }
-#the-waste-land span.center{
+
+#the-waste-land [epub|type~="dedication"]{
 	text-align: center;
-}
-#the-waste-land span.smallcaps{
-	font-variant: small-caps;
 }

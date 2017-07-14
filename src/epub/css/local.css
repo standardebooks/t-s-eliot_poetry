@@ -83,3 +83,11 @@ h3 [epub|type~="subtitle"] {
 #the-waste-land [epub|type~="dedication"]{
 	text-align: center;
 }
+
+#the-waste-land span.right{
+	text-align: right;
+}
+
+#the-waste-land span.center{
+	text-align: center;
+}

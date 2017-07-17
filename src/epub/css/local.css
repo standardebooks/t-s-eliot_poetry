@@ -75,8 +75,6 @@ h3 [epub|type~="subtitle"] {
 
 [epub|type~="epigraph"] > cite{
 	margin-top: 0.5em;
-	font-style: normal;
-	font-variant: small-caps;
 	text-align: right;
 }
 

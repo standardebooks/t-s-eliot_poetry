@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="cc: http://creativecommons.org/ns, se: http://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/t-s-eliot/poems</dc:identifier>
@@ -23,15 +23,17 @@
 		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">A collection of T.S. Eliot’s poetry, including “The Love Song of J. Alfred Prufrock” and “The Waste Land.”</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			&lt;p&gt;&lt;i&gt;Poems&lt;/i&gt; of T. S. Eliot collects all of his early work through “The Waste Land.” Poems like “The Love Song of J. Alfred Prufrock,” “Whispers of Immortality,” and “Gerontion” ponder aging and mortality, while “Sweeney Erect,” “Mr. Eliot’s Sunday Service,” and “Sweeney Among the Nightingales” sketch the temptations and agonies of the modern man in the character of Sweeney.&lt;/p&gt; &lt;p&gt;&lt;Woven throughout with allusions to works in six foreign languages and sporting over fifty footnotes by the author, “The Waste Land” is as notorious for its bleak picture of a post-war world as it is for its density and difficulty.&lt;/p&gt; &lt;p&gt;&lt;Eliot’s flashes of insight bring the everyday into stark relief. Whether suffering an insufferable bore, observing the lives of strangers on the streets, or juxtaposing the sacred and the profane, his sometimes autobiographical vignettes of modern life still feel current a century after they were penned.&lt;/p&gt;
-		]]></meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;&lt;i&gt;Poems&lt;/i&gt; of T. S. Eliot collects all of his early work through “The Waste Land.” Poems like “The Love Song of J. Alfred Prufrock,” “Whispers of Immortality,” and “Gerontion” ponder aging and mortality, while “Sweeney Erect,” “Mr. Eliot’s Sunday Service,” and “Sweeney Among the Nightingales” sketch the temptations and agonies of the modern man in the character of Sweeney.&lt;/p&gt;
+			&lt;p&gt;Woven throughout with allusions to works in six foreign languages and sporting over fifty footnotes by the author, “The Waste Land” is as notorious for its bleak picture of a post-war world as it is for its density and difficulty.&lt;/p&gt;
+			&lt;p&gt;Eliot’s flashes of insight bring the everyday into stark relief. Whether suffering an insufferable bore, observing the lives of strangers on the streets, or juxtaposing the sacred and the profane, his sometimes autobiographical vignettes of modern life still feel current a century after they were penned.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1567</dc:source>
-		<dc:source>https://babel.hathitrust.org/cgi/pt?id=loc.ark:/13960/t81j9w08v;view=2up;seq=2</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/009592742</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/1321</dc:source>
-		<dc:source>https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t9k371w5q;view=2up;seq=1</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/001835100</dc:source>
 		<meta property="se:word-count">9641</meta>
 		<meta property="se:reading-ease.flesch">68.3</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Love_Song_of_J._Alfred_Prufrock</meta>

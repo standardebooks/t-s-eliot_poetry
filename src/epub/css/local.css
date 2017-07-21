@@ -1,13 +1,9 @@
-@charset "UTF-8";
+@charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
 article,
 section{
 	page-break-after: always;
-}
-
-abbr.name{
-	white-space: nowrap;
 }
 
 [epub|type~="z3998:poem"] p,
@@ -16,8 +12,7 @@ abbr.name{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:verse"] p + p{
+[epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
 }
 
@@ -29,18 +24,24 @@ abbr.name{
 }
 
 [epub|type~="z3998:poem"] p > span + br,
-[epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p.right span:first-child,
-[epub|type~="rearnotes"] blockquote > p.right span:first-child{
-	text-align: right;
+[epub|type~="z3998:poem"] p.right,
+[epub|type~="z3998:poem"] blockquote.right,
+[epub|type~="rearnotes"] blockquote > p.right{
+	display: inline-block;
 }
 
-[epub|type~="z3998:poem"] p.center span:first-child{
-	text-align: center;
+[epub|type~="z3998:poem"] blockquote.right > span.right{
+	/* display: block */ /* text-align; right is doing nothing unless display is block, but that will add a weird gap below! */
+	text-indent: -1em;
+	padding-left: 3em;
+}
+
+span.right{
+	text-align: right;
 }
 
 p span.i1{
@@ -53,13 +54,13 @@ p span.i2{
 	padding-left: 3em;
 }
 
-[epub|type~="z3998:poem"] span > span {
+[epub|type~="z3998:poem"] span > span{
 	display: inline;
 	margin: 0;
 	padding: 0;
 }
 
-h3 [epub|type~="subtitle"] {
+h3 [epub|type~="subtitle"]{
 	display: block;
 }
 
@@ -70,12 +71,14 @@ h3 [epub|type~="subtitle"] {
 	margin-top: 0;
 	text-align: left;
 	text-indent: 0;
-	display: block; /* note that this is inline-block in the guide, by block here, to allow right aligned byline to aligned further right */
+	display: inline-block;
 }
 
 [epub|type~="epigraph"] > cite{
 	margin-top: 0.5em;
 	text-align: right;
+	font-style: normal;
+	font-variant: small-caps;
 }
 
 #the-waste-land [epub|type~="dedication"]{
@@ -88,4 +91,9 @@ h3 [epub|type~="subtitle"] {
 
 #the-waste-land span.center{
 	text-align: center;
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
 }

@@ -19,9 +19,12 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Poems</dc:title>
 		<meta property="file-as" refines="#title">Poems</meta>
-		<dc:subject>Poetry</dc:subject>
+		<dc:subject id="subject-1">Poetry</dc:subject>
+		<dc:subject id="subject-2">Prose poems</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/1321</meta>
+		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/1321</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">A collection of T.S. Eliot’s poetry, including “The Love Song of J. Alfred Prufrock” and “The Waste Land.”</dc:description>
+		<dc:description id="description">A collection of T. S. Eliot’s poetry, including “The Love Song of J. Alfred Prufrock” and “The Waste Land.”</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Poems&lt;/i&gt; of T. S. Eliot collects all of his early work through “The Waste Land.” Poems like “The Love Song of J. Alfred Prufrock,” “Whispers of Immortality,” and “Gerontion” ponder aging and mortality, while “Sweeney Erect,” “Mr. Eliot’s Sunday Service,” and “Sweeney Among the Nightingales” sketch the temptations and agonies of the modern man in the character of Sweeney.&lt;/p&gt;
@@ -58,6 +61,9 @@
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">An Anonymous Project Gutenberg Volunteer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Anonymous Project Gutenberg Volunteer, An</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Jared Updike</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Updike, Jared</meta>
 		<meta property="se:name.person.full-name" refines="#producer-1">Jared Fisher Updike</meta>
@@ -68,6 +74,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>

@@ -68,6 +68,10 @@ h3 [epub|type~="subtitle"]{
 	display: block;
 }
 
+article > header{
+	text-align: center;
+}
+
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
@@ -79,8 +83,7 @@ h3 [epub|type~="subtitle"]{
 }
 
 [epub|type~="epigraph"] > cite{
-	margin-top: 0.5em;
-	text-align: right;
+	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
 }

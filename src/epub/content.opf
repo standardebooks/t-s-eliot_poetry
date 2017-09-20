@@ -37,6 +37,7 @@
 		<dc:source>https://catalog.hathitrust.org/Record/009592742</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/1321</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001835100</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/100218549</dc:source>
 		<meta property="se:word-count">9641</meta>
 		<meta property="se:reading-ease.flesch">68.3</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Love_Song_of_J._Alfred_Prufrock</meta>
@@ -74,6 +75,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
 		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>

@@ -107,3 +107,7 @@ span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
 }
+
+#endnotes p[xml|lang]{
+	font-style: italic;
+}

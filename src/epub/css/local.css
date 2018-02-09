@@ -57,10 +57,6 @@ p span.i2{
 	padding: 0;
 }
 
-h3 [epub|type~="subtitle"]{
-	display: block;
-}
-
 article > header{
 	text-align: center;
 }

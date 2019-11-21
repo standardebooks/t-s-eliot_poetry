@@ -106,7 +106,8 @@ article > header [epub|type~="epigraph"] + *{
 	text-align: center;
 }
 
-#the-waste-land header span{ /* override poetry default style */
+#the-waste-land header span{
+	/* override poetry default style */
 	display: inline;
 	padding: 0;
 	text-indent: 0;

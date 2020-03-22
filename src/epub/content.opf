@@ -72,8 +72,8 @@
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">An Anonymous Project Gutenberg Volunteer</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Anonymous Project Gutenberg Volunteer, An</meta>
+		<dc:contributor id="transcriber-3">An Anonymous Volunteer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Anonymous Volunteer, An</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Jared Updike</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Updike, Jared</meta>

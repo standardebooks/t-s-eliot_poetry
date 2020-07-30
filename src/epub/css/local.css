@@ -4,7 +4,7 @@
 
 article,
 section{
-	page-break-after: always;
+	break-after: page;
 }
 
 [epub|type~="z3998:poem"] p,
@@ -58,6 +58,7 @@ p span.i2{
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
+	-epub-hyphens: none;
 }
 
 [epub|type~="epigraph"] i{

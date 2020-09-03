@@ -114,11 +114,6 @@ article > header [epub|type~="epigraph"] + *{
 	text-indent: 0;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 #endnotes p[xml|lang]{
 	font-style: italic;
 }

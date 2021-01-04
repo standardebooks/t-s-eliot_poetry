@@ -118,3 +118,11 @@ article > header [epub|type~="epigraph"] + *{
 #endnotes p[xml|lang]{
 	font-style: italic;
 }
+
+#the-hollow-men [epub|type~="epigraph"] + [epub|type~="epigraph"] {
+	display: block;
+}
+
+#the-hollow-men [epub|type~="epigraph"] + [epub|type~="epigraph"] > p {
+	text-align: right;
+}

@@ -119,10 +119,10 @@ article > header [epub|type~="epigraph"] + *{
 	font-style: italic;
 }
 
-#the-hollow-men [epub|type~="epigraph"] + [epub|type~="epigraph"] {
+#the-hollow-men [epub|type~="epigraph"] + [epub|type~="epigraph"]{
 	display: block;
+	text-align: right;
 }
 
-#the-hollow-men [epub|type~="epigraph"] + [epub|type~="epigraph"] > p {
-	text-align: right;
+#the-hollow-men [epub|type~="epigraph"] + [epub|type~="epigraph"] > p{
 }

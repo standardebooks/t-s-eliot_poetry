@@ -49,8 +49,8 @@
 		<dc:source>https://catalog.hathitrust.org/Record/001835100</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100218549</dc:source>
 		<dc:source>https://archive.org/details/poems19091925030616mbp</dc:source>
-		<meta property="se:word-count">9792</meta>
-		<meta property="se:reading-ease.flesch">68.3</meta>
+		<meta property="se:word-count">10241</meta>
+		<meta property="se:reading-ease.flesch">67.79</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Love_Song_of_J._Alfred_Prufrock</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Waste_Land</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/t-s-eliot_poetry</meta>

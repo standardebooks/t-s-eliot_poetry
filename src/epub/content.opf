@@ -37,6 +37,8 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85107566</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A collection of T. S. Eliot’s poetry, including “The Love Song of J. Alfred Prufrock,” “The Waste Land,” and “The Hollow Men.”</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Poetry&lt;/i&gt; of &lt;a href="https://standardebooks.org/ebooks/t-s-eliot"&gt;&lt;abbr&gt;T. S.&lt;/abbr&gt; Eliot&lt;/a&gt; collects all of his early work through “The Hollow Men.” Poems like “The Love Song of &lt;abbr&gt;J.&lt;/abbr&gt; Alfred Prufrock,” “Whispers of Immortality,” and “Gerontion” ponder aging and mortality, while “Sweeney Erect,” “&lt;abbr&gt;Mr&lt;/abbr&gt;. Eliot’s Sunday Service,” and “Sweeney Among the Nightingales” sketch the temptations and agonies of the modern man in the character of Sweeney.&lt;/p&gt;

@@ -67,9 +67,9 @@ p span.i2{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 
 [epub|type~="epigraph"] cite i{

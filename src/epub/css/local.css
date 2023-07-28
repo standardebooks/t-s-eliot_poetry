@@ -55,6 +55,10 @@ p span.i2{
 	padding: 0;
 }
 
+[epub|type~="z3998:poem"] hgroup p{
+	text-align: center;
+}
+
 /* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;

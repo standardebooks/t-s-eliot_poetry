@@ -49,6 +49,11 @@ p span.i2{
 	text-indent: -1em;
 }
 
+p span.i3{
+	padding-left: 4em;
+	text-indent: -1em;
+}
+
 [epub|type~="z3998:poem"] span > span{
 	display: inline;
 	margin: 0;

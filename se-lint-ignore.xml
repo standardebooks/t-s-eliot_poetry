@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="poetry.xhtml">
-		<ignore>
-			<code>s-006</code>
+		<ignore code="s-006">
 			<reason>The match is a prose poem so spans aren't needed.</reason>
 		</ignore>
 	</file>
